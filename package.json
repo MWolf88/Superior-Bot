@@ -1,0 +1,24 @@
+{
+  "name": "superior-discord-bot",
+  "version": "1.0.0",
+  "description": "Superior Server Discord Bot",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node ./src/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MWolf88/Superior-Bot.git"
+  },
+  "author": "HeyItsSplit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MWolf88/Superior-Bot/issues"
+  },
+  "homepage": "https://github.com/MWolf88/Superior-Bot#readme",
+  "dependencies": {
+    "discord.js": "11.4.2",
+    "opusscript": "0.0.6"
+  }
+}
