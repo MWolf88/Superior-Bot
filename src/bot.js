@@ -3,7 +3,6 @@ const bot = new Discord.Client();
 const fs = require("fs");
 require("dotenv").config();
 const config = JSON.parse(fs.readFileSync("./config/config.json", "utf8"));
-const tokenfile = JSON.parse(fs.readFileSync("./config/token.json", "utf8"));
 
 bot.on("message", message => {
   let sender = message.author;
