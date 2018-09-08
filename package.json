@@ -19,6 +19,10 @@
   "homepage": "https://github.com/MWolf88/Superior-Bot#readme",
   "dependencies": {
     "discord.js": "11.4.2",
-    "opusscript": "0.0.6"
+    "opusscript": "0.0.6",
+    "quick.db": "7.0.0-b13"
+  },
+  "devDependencies": {
+    "dotenv": "6.0.0"
   }
 }
