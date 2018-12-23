@@ -1,5 +1,6 @@
 #Custom
-config/token.json
+.prettierrc.yml
+/.vscode
 
 # Logs
 logs
