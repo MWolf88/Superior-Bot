@@ -1,6 +1,5 @@
 {
   "bot_name": "Superior Gaming",
   "bot_id": "486285200330850307",
-  "version": "1.0.0",
-  "kick_error": "It is not possible for me to kick myself nor someone with a higher role."
+  "version": "1.0.0"
 }
