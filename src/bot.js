@@ -19,7 +19,7 @@ bot.on('message', message => {
     .trim()
     .split(' ');
   let msgcmd = args.shift().toLowerCase();
-message.delete()
+
   if (!msg.startsWith(prefix)) return;
   try {
     let commandFile = require(`../commands/${msgcmd}.js`);

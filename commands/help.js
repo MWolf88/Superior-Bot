@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = './commands';
 let commandsArray = new Array();
 exports.run = (bot, message, args, prefix) => {
+  
   if (args[0] != null) {
     const cmdfile = require(`./${args[0]}`);
     cmdObj = cmdfile.help();
