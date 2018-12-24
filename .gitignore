@@ -1,7 +1,7 @@
 #Custom
 .prettierrc.yml
 /.vscode
-
+botspace.code-workspace
 # Logs
 logs
 *.log
